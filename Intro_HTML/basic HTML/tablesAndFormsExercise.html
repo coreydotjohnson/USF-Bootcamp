@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and Forms Exercise</title>
+</head>
+<body>
+    <header>
+        Inside of header - let' add a navboar with some essential links
+        <table>
+            <tbody>
+                <tr>
+                    <td><a href="">Home</a></td>
+                    <td><a href="">About</a></td>
+                    <td><a href="">Contact</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+    </header>
+    <h1>
+        Here is the main section of our page - it consists of a new articles
+    </h1>
+    <h1>
+        Article 1 - 1995 was a pretty crazy year for programming languages!
+    </h1>
+    <p>
+        Dont believe me? Just check this table out:
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Language</th>
+                <th>Designed By</th>
+                <th>First Appeared</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>C++</td>
+                <td>Bjarn Strousopppo</td>
+                <td>1983</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Guido vanRossum</td>
+                <td>1991</td>
+            </tr>
+            <tr>
+                <td>Ruby</td>
+                <td>Yukihiro</td>
+                <td>1995</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>
+        Article 2 - Coming Soon...
+    </h1>
+    <form>
+        <h1>Contact us!</h1>
+        <h1>
+            General Information
+        </h1>
+        <label for="fname">
+            First Name:
+            <input name="fname" type="text" id="fname">
+        </label>
+        <br>
+        <label for="lname">
+            Last Name:
+            <input name="lname" type="text" id="lname">
+        </label>
+        <br>
+        <label for="email">
+            Email:
+            <input name="email" type="text" id="email">
+        </label>
+        <br>
+        <label>
+            Date of Birthd
+            <input name="dob" type="date" id="dob">
+        </label>
+        <h1>
+            Essential Questions
+        </h1>
+        <br>
+        What kind of work do you need?
+        <br>
+        <label>
+            Programming:
+            <input type="checkbox" name="programmingWork">
+        </label>
+        <br>
+        <label>
+            Design:
+            <input type="checkbox" name="designWork">
+        </label>
+        <br>
+        <label>
+            Singing:
+            <input type="checkbox" name="singingWork">
+        </label>
+        <br>
+        <br>
+        How interested are you in our design skills?
+        <br>
+        <label>
+            Very Low
+            <input type="radio" name="interest" value="vl">
+        </label>
+        <br>
+        <label>
+            Medium
+            <input type="radio" name="interest" value="m">
+        </label>
+        <br>
+        <label>
+            High
+            <input type="radio" name="interest" value="vh">
+        </label>
+        <br>
+        <button type="submit">Submit Me!</button>
+    </form>
+    <footer>
+        <p>Here is our footer - let's make sure we copyright &copy; this!</p>
+    </footer>
+</body>
+</html>

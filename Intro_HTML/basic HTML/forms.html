@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h1>Forms Demo!</h1>
+    <form>
+        <input
+         name="city" 
+         type="text" 
+         placeholder="Enter a city" 
+         minlength="2" 
+         maxlength="10" 
+         required>
+    </form>
+    <button>this is a <b>button</b></button>
+    <h2>Register</h2>
+    <form>
+        <button type="button">regular button</button>
+        <input type="email" placeholder="email" name="email">
+        <input type="checkbox" name="tos-agree"> I agree to the terms of service
+        <input type="password" name="password" placeholder="password">
+        <!-- <input type="submit" name="submit" value="go button"> -->
+        <p>Select shirt size</p>
+        <input type="radio" name="shirt-size" value="xs"> XS <br>
+        <input type="radio" name="shirt-size" value="s"> S <br>
+        <input type="radio" name="shirt-size" value="m"> M <br>
+        <input type="radio" name="shirt-size" value="l"> L <br>
+        <button type="submit">submit form</button>
+        <button type="reset">reset form</button>
+    </form>
+
+    <h2>other input Types</h2>
+    <form>
+        Pick a color <input type="color" name="color">
+        Enter birthday: <input type="date" name="birthday">
+        Meter: <input type="range" name="rangeMeter" min="1" max="10" step="2">
+        <br>
+        Select a state:
+        <select name="state">
+            <option value="">Choose your state</option>
+            <option value="AL">Alamabam</option>
+            <option value="AK">Alaska</option>
+            <option value="AR">Arkanasa</option>
+            <option value="AZ">Arizona</option>
+        </select>
+        <br>
+        essay goes here
+        <textarea name="essay" cols="30" rows="10" minlength="5" maxlength="50">Lorem ipsum dolor sit amet consectetur adipisicing elit</textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>search reddit:</h2>
+    <form action="https://www.reddit.com/search" method="get">
+        <input type="text" name="q" placeholder="search here">
+        <br>
+        Sort by:
+        <select name="sort">
+            <option value="top">Top</option>
+            <option value="new">New</option>
+            <option value="comments">Comments</option>
+        </select>
+        <button type="submit">search</button>
+    </form>
+    <!-- https://www.reddit.com/search/?q=arsenal -->
+    <!-- https://www.reddit.com/search/?q=arsenal&sort=top -->
+
+    <form method="post" enctype="multipart/form-data">
+        <label for="file">the file label: </label>
+        <input type="file" id="file">
+    </form>
+</body>
+</html>
