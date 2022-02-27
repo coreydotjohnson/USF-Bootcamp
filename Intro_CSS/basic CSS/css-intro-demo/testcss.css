@@ -1,0 +1,44 @@
+/* p {
+    background-color: purple;
+}
+
+li  {
+    background-color: yellowgreen;
+}
+
+li:nth-of-type(2n) {
+    background-color: aqua;
+}
+
+li:nth-of-type(2n):hover {
+    background-color: red;
+    font-size: 40px;
+} */
+
+/* h2 {
+    color: greenyellow;
+    background-color: purple;
+} */
+
+body {
+    /* background-color: rgb(205, 145, 255); */
+    background-color: #90cbf0;
+}
+
+h1 {
+    /* background-color: rgba(255, 255, 255, 0.25); */
+    background-color: hsl(0, 75%, 50%);
+    color: hsla(90, 75%, 50%, 0.9);
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 20px;
+    font-size: 10vw;
+}
+
+p {
+    text-align: right;
+    font-weight: bold;
+    line-height: 2;
+    text-indent: 50px;
+    /* word-spacing: 5px; */
+}
