@@ -74,7 +74,7 @@ function handleCardClick(event) {
         while (pickArr.length) {pickArr.pop()};
 
     } else {
-
+      //reset cards after 1 sec
       setTimeout(function() {
         pickArr[0][0].style.backgroundColor = '';
         pickArr[1][0].style.backgroundColor = '';
