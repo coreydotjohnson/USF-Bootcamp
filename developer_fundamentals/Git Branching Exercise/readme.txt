@@ -3,4 +3,4 @@ What is the difference between a fast-forward and recursive merge? Fast forwards
   Recursive merge occurs when changes have been made to the original branch.
 What git command changes to another branch? git checkout
 What git command deletes a branch? git branch -d
-How do merge conflicts happen? When two different commits happen that change the same file
+How do merge conflicts happen? When two different commits try to make a change to the same file
